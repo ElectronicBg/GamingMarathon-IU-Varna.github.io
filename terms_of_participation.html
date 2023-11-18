@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="header-section">
+        <div class="header-content">
+            <div class="event-info">
+                <h1 class="event-name">Gaming Marathon</h1>
+            </div>
+            <div class="language-search-container">
+                <button class="lang-button"><i class="fas fa-globe"></i> Language</button>
+                <input type="text" placeholder="Search..." class="search-input">
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <ul class="nav">
+            <li class="nav__item"><a href="#" class="nav__link">Участници</a></li>
+            <li class="nav__item"><a href="program.html" class="nav__link">Програма</a></li>
+            <li class="nav__item"><a href="organisators.html" class="nav__link">Организатори</a></li>
+            <li class="nav__item"><a href="terms_of_participation.html" class="nav__link">Условия-за-участие</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Награди</a></li>
+        </ul>
+    </header>
+
+    <section class="terms-section">
+        <div class="terms-section_container">
+            <h2>Условия за участие:</h2>
+            <br>
+            <p>За да участвате в Gaming Marathon, моля следвайте инструкциите по-долу:</p>
+            <ol>
+                <li>Регистрирайте се до <strong>крайната дата</strong> за участие.</li>
+                <li>Изплатете таксата за участие до <strong>крайната дата за плащане</strong>.</li>
+                <li>Запълнете формата за участие по-долу с необходимите данни.</li>
+                <li>Очаквайте потвърждение за вашата регистрация.</li>
+            </ol>
+        </div>
+
+        <form class="join-form">
+            <div class="form-field">
+                <label for="name" class="form-label">Име:</label>
+                <input type="text" id="name" name="name" class="form-input" required>
+            </div>
+            <div class="form-field">
+                <label for="email" class="form-label">Имейл:</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            <div class="form-field">
+                <label for="tax" class="form-label">Такса за участие:</label>
+                <input type="text" id="tax" name="tax" class="form-input" required>
+            </div>
+            <div class="form-field">
+                <label for="deadline" class="form-label">Крайна дата за плащане:</label>
+                <input type="date" id="deadline" name="deadline" class="form-input" required>
+            </div>
+            <div class="form-field">
+                <label for="additionalField1" class="form-label">Допълнително поле 1:</label>
+                <input type="text" id="additionalField1" name="additionalField1" class="form-input" required>
+            </div>
+            <div class="form-field">
+                <label for="additionalField2" class="form-label">Допълнително поле 2:</label>
+                <input type="text" id="additionalField2" name="additionalField2" class="form-input" required>
+            </div>
+            <button type="submit" class="form-button">Регистрирай се</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__social">
+            <ul class="footer__social-list">
+                <p class="footer__social-heading">Социални Мрежи:</p>
+                <ul class="footer__social-sublist">
+                    <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fab fa-facebook"></i></a></li>
+                    <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </ul>
+            <ul class="footer__partners-list">
+                <p class="footer__partners-heading">Партньори:</p>
+                <li class="footer__partners-item"><a href="#" class="footer__partners-link">Partner1</a></li>
+                <li class="footer__partners-item"><a href="#" class="footer__partners-link">Partner2</a></li>
+                <li class="footer__partners-item"><a href="#" class="footer__partners-link">Partner3</a></li>
+            </ul>
+        </div>
+        <a href="#" class="footer__about-link">За мен</a>
+        <div class="footer__copyright">
+            <p>&copy; 2023 GamingMarathon. Всички права запазени.</p>
+        </div>
+    </footer>
+</body>
+</html>

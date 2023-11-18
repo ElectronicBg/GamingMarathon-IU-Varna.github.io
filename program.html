@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="gallery.js"></script>
-    <title>Home</title>
+    <title>Gaming Marathon - Program</title>
 </head>
-<body>
     <section class="header-section">
         <div class="header-content">
             <div class="event-info">
@@ -30,32 +28,46 @@
             <li class="nav__item"><a href="#" class="nav__link">Награди</a></li>
         </ul>
     </header>
-    <main>
-        <section>
-            <h2 class="section-heading">Новини за Gaming Marathon</h2>
-        
-            <article class="news-article">
-                <div class="news-article-div">
-                    <h3 class="article-title">Най-голямото Гейминг Събитие идва скоро!</h3>
-                    <p class="article-date">Публикувано на 18-ти ноември 2023</p>
-                    <p class="article-content">За всички фенове на видео игрите, гответе се за най-голямото гейминг събитие в България! Gaming Marathon се завръща за още едно невероятно приключение. Присъединете се към нас за ексклузивни показвания, състезания и много забавления.</p>
-                    <a href="#" class="read-more-link">Прочети повече</a>
+<body>
+    <section class="program-section">
+        <div class="timeline">
+            <div class="event">
+                <div class="time">09:00 ч.</div>
+                <div class="event-details">
+                    <h2>Откриващ церемониал</h2>
+                    <p>Добре дошли на Gaming Marathon! Присъединете се към откриващия церемониал, за да стартираме събитието.</p>
                 </div>
-                <img src="https://media.istockphoto.com/id/1376339349/vector/vector-illustration-neon-future-game-pad-background.jpg?s=2048x2048&w=is&k=20&c=5V1eYLhl5DMSpmwaw4D9NYCNeolXEnUKuEC8KeDCe_Y=" alt="Gaming Marathon Image" class="article-image">
-            </article>
-        </section>
-
-        <div class="slider-container">
-            <div class="slider">
-                <div class="slide" style="background-image: url('https://media.istockphoto.com/id/1212547610/photo/e-sport-arena-and-game-joypad-in-the-speed-of-colorful-light-3d-rendering-illustration.webp?s=2048x2048&w=is&k=20&c=8_-Q7xG7MJgL_IjZ_UonJtr47JQQOI4oUeZq89XiVwI=');"></div>
-                <div class="slide" style="background-image: url('https://media.istockphoto.com/id/1320158014/photo/two-professional-esport-gamers-using-controllers-playing-console-video-games-on-a.webp?s=2048x2048&w=is&k=20&c=XTx6BLBBBjYYGBlYxs_GmN75T19hlI5lPzo9ZvLlPpw=');"></div>
-                <div class="slide" style="background-image: url('https://media.istockphoto.com/id/1357434585/photo/two-esport-teams-of-pro-gamers-play-to-compete-in-video-game-on-a-championship-stylish-neon.webp?s=2048x2048&w=is&k=20&c=M5Q4Ov6XmWJFU5wARXpqwPx5vT-YoU4vgwbjyQxYlBs=');"></div>
-                <!-- Add more slides as needed -->
             </div>
-            <button id="prevBtn" class="prev" onclick="prevSlide()">❮</button>
-            <button id="nextBtn" class="next" onclick="nextSlide()">❯</button>
+            <div class="event">
+                <div class="time">10:30 ч.</div>
+                <div class="event-details">
+                    <h2>Панел на игралните разработчици</h2>
+                    <p>Присъединете се към нашия панел на игралните разработчици, докато обсъждат последните тенденции и иновации в игровата индустрия.</p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="time">13:00 ч.</div>
+                <div class="event-details">
+                    <h2>Турнир: League of Legends</h2>
+                    <p>Подгответе се за интензивен турнир по League of Legends. Състезавайте се срещу други играчи и докажете своите умения!</p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="time">15:30 ч.</div>
+                <div class="event-details">
+                    <h2>VR Гейминг Изживяване</h2>
+                    <p>Потопете се в света на виртуалната реалност. Изпробвайте последните VR игри и изживявания.</p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="time">18:00 ч.</div>
+                <div class="event-details">
+                    <h2>Еспорт Турнир: Overwatch</h2>
+                    <p>Състезавайте се в нашия турнир по Overwatch. Създайте своя отбор и борете се за победа!</p>
+                </div>
+            </div>
         </div>
-    </main>  
+    </section>
     <footer class="footer">
         <div class="footer__social">
             <ul class="footer__social-list">
@@ -77,7 +89,5 @@
             <p>&copy; 2023 GamingMarathon. Всички права запазени.</p>
         </div>
     </footer>
-
-    
 </body>
 </html>
