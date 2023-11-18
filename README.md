@@ -1,1 +1,0 @@
-# GamingMarathon-IU-Varna
