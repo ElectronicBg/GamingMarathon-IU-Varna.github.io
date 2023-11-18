@@ -377,7 +377,6 @@ p {
   align-items: center;
   max-width: 800px;
   margin: 50px auto;
-  text-align: center;
 }
 
 .terms-section_container {
@@ -388,9 +387,12 @@ p {
 }
 
 .terms-section_container > h2 {
+    text-align: center;
   font-size: 25px;
 }
-
+.terms-section_container>p{
+    text-decoration: underline;
+}
 .terms-section_container > h2,
 .terms-section_container > p {
   color: white;
