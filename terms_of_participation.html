@@ -10,11 +10,11 @@
 <body>
     <section class="header-section">
         <div class="header-content">
-               <a href="index.html"><img src="DALL_E_2023-11-18_13.33.36_-_A_simple_2D_logo_for_a__Gaming_Marathon__event__featuring_stylized_text_that_reads__Gaming_Marathon__in_a_dynamic__energetic_font._The_logo_includes_g-removebg-preview.png" class="logo"></a> 
-            <div class="language-search-container">
-                <button class="lang-button"><i class="fas fa-globe"></i> Language</button>
-                <input type="text" placeholder="Search..." class="search-input">
-            </div>
+             <a href="index.html"><img src="DALL_E_2023-11-18_13.33.36_-_A_simple_2D_logo_for_a__Gaming_Marathon__event__featuring_stylized_text_that_reads__Gaming_Marathon__in_a_dynamic__energetic_font._The_logo_includes_g-removebg-preview.png" class="logo"></a> 
+        </div>
+        <div class="language-search-container">
+            <button class="lang-button"><i class="fas fa-globe"></i> Език</button>
+            <input type="text" placeholder="Търси..." class="search-input">
         </div>
     </section>
 
@@ -30,21 +30,31 @@
 
     <section class="terms-section">
         <div class="terms-section_container">
+
             <h2>Условия за участие:</h2>
             <br>
             <p>За да участвате в Gaming Marathon, моля следвайте инструкциите по-долу:</p>
-            <ol>
+
+            <ul>
                 <li>Регистрирайте се до <strong>крайната дата</strong> за участие.</li>
                 <li>Изплатете таксата за участие до <strong>крайната дата за плащане</strong>.</li>
                 <li>Запълнете формата за участие по-долу с необходимите данни.</li>
                 <li>Очаквайте потвърждение за вашата регистрация.</li>
-            </ol>
+            </ul>
         </div>
 
         <form class="join-form">
             <div class="form-field">
                 <label for="name" class="form-label">Име:</label>
                 <input type="text" id="name" name="name" class="form-input" required>
+            </div>
+            <div class="form-field">
+                <label for="additionalField1" class="form-label">Адрес:</label>
+                <input type="text" id="additionalField1" name="additionalField1" class="form-input" required>
+            </div>
+            <div class="form-field">
+                <label for="additionalField2" class="form-label">Телефон:</label>
+                <input type="text" id="additionalField2" name="additionalField2" class="form-input" required>
             </div>
             <div class="form-field">
                 <label for="email" class="form-label">Имейл:</label>
@@ -57,14 +67,6 @@
             <div class="form-field">
                 <label for="deadline" class="form-label">Крайна дата за плащане:</label>
                 <input type="date" id="deadline" name="deadline" class="form-input" required>
-            </div>
-            <div class="form-field">
-                <label for="additionalField1" class="form-label">Допълнително поле 1:</label>
-                <input type="text" id="additionalField1" name="additionalField1" class="form-input" required>
-            </div>
-            <div class="form-field">
-                <label for="additionalField2" class="form-label">Допълнително поле 2:</label>
-                <input type="text" id="additionalField2" name="additionalField2" class="form-input" required>
             </div>
             <button type="submit" class="form-button">Регистрирай се</button>
         </form>
